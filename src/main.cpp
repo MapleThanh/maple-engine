@@ -12,7 +12,7 @@ void display() {
 int main(int argc, char** argv) {
     // Initialize GLFW
     if (!glfwInit()) {
-        printf("GLFW Initialization Failed");
+        printf("GLFW Initialization failed");
         glfwTerminate();
         return 1;
     }
