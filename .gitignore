@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# Ignore build directory
+/build/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +33,10 @@
 *.exe
 *.out
 *.app
+
+# Ignore CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
